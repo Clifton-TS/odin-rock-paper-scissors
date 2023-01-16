@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: RGB(239,239,239);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.rock, .paper, .scissors {
+    padding: 1rem;
+    font-size: 64px;
+    transition: 1s;
+}
+
+.selected {
+    border: solid red 2px;
+    background-color: mistyrose;
+}
+.play {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.computerChoice {
+    background-color: RGB(239,239,239);
+    font-size: 64px;
+    margin: 0;
+}
